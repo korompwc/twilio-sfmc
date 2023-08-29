@@ -100,7 +100,7 @@ define([
             "authToken": authToken,
             "messagingService": messagingService,
             "body": body,
-            "to": "{{Contact.Attribute.Mobile_Marketing_Generali.Phone}}" //<----This should map to your data extension name and phone number column
+            "to": "+41797468506" //<----This should map to your data extension name and phone number column
         }];
 
         payload['metaData'].isConfigured = true;
